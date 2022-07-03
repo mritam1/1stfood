@@ -1,0 +1,347 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrap{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 0px;
+}
+
+
+
+.left{
+  float: left;
+  padding-top: -1px;
+  padding-bottom: 10px;
+  margin-left: -115px;
+}
+
+.right{
+  float: right;
+  padding-top: 3px;
+}
+
+.right ul li{
+  display: inline-block;
+  /* padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px; */
+  padding: 10px 15px 5px 15px;
+  /* padding: 10px 15px 5px; */
+  font-size: 17px;
+  font-family: Montserrat;
+
+}
+
+.right a{
+  text-decoration: none;
+  color: #000;
+}
+
+.right a:hover {
+color: #ff0000;
+}
+
+
+.banner-text  {
+
+    font-family: "Century Gothic";
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    justify-content: center;
+    padding-top: 176px;
+    padding-left: 65px;
+    margin-left: 637px;
+}
+.banner {
+  position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    margin-left: -557px;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 12px 45px;
+    background-color: #ED1C24;
+    color: #fff;
+    border: 1px solid transparent;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border-color: #ED1C24;
+    color: #ED1C24;
+}
+
+.social-media {
+    margin-top: 80px;
+}
+
+.social-media ul {
+    display: flex;
+    align-items: center;
+}
+
+.social-media ul li {
+    margin-right: 50px;
+}
+
+.social-media ul li a {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid #ED1C24;
+    color: #ED1C24;
+    border-radius: 100%;
+}
+
+.social-media ul li a:hover {
+    background-color: #ED1C24;
+    border-color: transparent;
+    color: #fff;
+}
+.banner-img{
+  position: absolute;
+  padding-left: 1958px;
+  padding-top: 100px;
+}
+.AB{
+  text-align: center;
+  padding-top: 841px;
+  color: red;
+  font-size: 38px;
+}
+.img{
+  position: absolute;
+  margin-left: 75px;
+  margin-top: 70px;
+  width: 100px;
+
+}
+.pragraph{
+  padding-left: 660px;
+  float: right;
+  width: 801px;
+      position: absolute;
+       font-size: 28px;
+       font-weight: 700;
+       color: #010483;
+       margin-bottom: 15px;
+
+}
+p{
+  font-size: 22px;
+  color: black;
+}
+.bestfood{
+  text-align: center;
+  padding-top: 507px;
+  color: red;
+  font-size: 38px;
+}
+.bimg{
+  position: absolute;
+  margin-left: 982px;
+  margin-top: 70px;
+  float: left;
+  width: 297px;
+  height: 294px;
+}
+.biriyani{
+    padding-left: 127px;
+    padding-top: 91px;
+     width: 801px;
+      position: absolute;
+       font-size: 28px;
+       font-weight: 700;
+       color: #010483;
+       margin-bottom: 15px;
+
+}
+
+
+.kimg{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 547px;
+  float: left;
+  width: 297px;
+  height: 294px;
+}
+.kosa{
+    padding-left: 669px;
+    padding-top: 505px;
+     width: 801px;
+      position: absolute;
+       font-size: 28px;
+       font-weight: 700;
+       color: #010483;
+       margin-bottom: 15px;
+
+}
+.checkitems{
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 954px;
+
+}
+.flex-container{
+  display: flex;
+       flex-direction:row;
+
+}
+    .flex-items{
+        margin: 36px;
+        margin-left: 45px;
+
+    }
+    #one {
+      height: 426px;
+        width: 329px;
+        border: 5px solid black;
+        background-color: black;
+    }
+    #two{
+      height: 426px;
+    width: 329px;
+    border: 5px solid black;
+    background-color: black;
+
+    }
+    #three{
+      height: 426px;
+    width: 329px;
+    border: 5px solid black;
+    background-color: black;
+
+    }
+    #four{
+      height: 426px;
+    width: 329px;
+    border: 5px solid black;
+    background-color: black;
+
+    }
+.img1{
+  width: 205px;
+  height: 173px;
+  padding: 20px;
+}
+.con{
+  text-align: center;
+  margin-left: 123px;
+}
+.tes{
+  color: red;
+  font-size: 20px;
+}
+.but  {
+ margin-top: 10px;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.but:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.testi{
+  color: red;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 22px;
+}
+.flex-container1 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex-container1 > div {
+  background-color: #A5A5A4;
+  width: 335px;
+  margin: 20px;
+  text-align: center;
+  line-height: 175px;
+  font-size: 30px;
+}
+.tr{
+  color: red;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 22px;
+
+}
+.contact{
+  color: red;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 22px;
+}
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.S{
+  position: absolute;
+  margin-top: 83px;
+  margin-left: -76px;
+}
+.cc{
+
+  text-align: center;
+}
